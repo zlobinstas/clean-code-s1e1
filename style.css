@@ -92,7 +92,7 @@ label[for="new-task"] {
 #new-task {
   width: 318px;
 }
-p > button:hover {
+section > button:hover {
   color: #0FC57C;
 }
 
@@ -115,7 +115,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 li > button.delete:hover {
