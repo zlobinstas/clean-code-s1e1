@@ -59,7 +59,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="add-tasks__input"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,11 +85,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+label[for="add-tasks__input"] {
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+.add-tasks__input {
   width: 318px;
 }
 section > button:hover {
@@ -131,7 +131,7 @@ li > button.delete:hover {
 }
 
 /* Completed */
-#completed-tasks label {
+.completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -141,11 +141,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.tasks__edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.tasks__edit-mode label {
   display: none;
 }
