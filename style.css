@@ -22,7 +22,7 @@ body {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.task-bar {
   display: block;
   width: 425px;
   margin: 0 auto 0;
